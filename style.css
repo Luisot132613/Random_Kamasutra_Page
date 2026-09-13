@@ -93,5 +93,6 @@ img:before, img:after {
   }
   .topo h3 {
     font-size: 11px; /* menor em smartphones */
+    line-height: 1.2;
   }
 }
