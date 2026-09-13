@@ -14,7 +14,7 @@
 
 .topo h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 12px;       /* título pequeno */
+  font-size: clamp(0.8rem, 2vw, 1.2rem);      /* título pequeno */
   margin: 0;
   color: #333;
 }
@@ -84,37 +84,4 @@ img {
 }
 img:before, img:after {
   content: none;
-}
-
-/* Responsivo para telas pequenas (smartphones) */
-@media (max-width: 480px) {
-  .topo {
-    padding: 8px;              /* menos espaço */
-    gap: 4px;                  /* ícones mais próximos */
-  }
-
-  .topo h3 {
-    font-size: 10px;           /* título ainda menor */
-  }
-
-  .material-icons {
-    font-size: 16px;           /* ícones menores */
-  }
-
-  .container {
-    width: 95%;                /* ocupa quase toda a largura */
-    padding: 15px;             /* menos padding interno */
-    border-radius: 8px;        /* cantos mais suaves */
-  }
-
-  button {
-    width: 100%;               /* botão ocupa toda a largura */
-    font-size: 14px;           /* fonte menor */
-    padding: 10px;
-  }
-
-  img {
-    max-width: 100%;           /* imagem se adapta à tela */
-    height: auto;
-  }
 }
