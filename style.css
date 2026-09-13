@@ -93,11 +93,14 @@ img:before, img:after {
   }
   .topo h3 {
     font-size: 11px; /* menor em smartphones */
-    line-height: 1.2;
+    line-height: 1;
+    display: flex;             /* força alinhamento interno */
+    align-items: center;
   }
   .material-icons,.material-symbols-outlined {
   display: flex;             /* garante alinhamento */
   align-items: center;
+  line-height: 1;
   font-size: 18px;
   color: #e91e63;
 }
