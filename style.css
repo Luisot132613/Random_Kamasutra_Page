@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #f8de69;      /* fundo branco discreto */
+  background: #f8de69;      /*fundo dourado matalico*/
   padding: 5px 10px;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100dvh;
   background: linear-gradient(135deg, #ff69b4, #a12664, #d14fd1, #662766);
 }
 
@@ -47,7 +47,7 @@ body {
   text-align: center;
   max-width: 600px;
   width: 90%;
-  background: #f8de69;
+  background: #f8de69; /*fundo dourado matalico*/
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
