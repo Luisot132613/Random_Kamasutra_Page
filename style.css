@@ -85,7 +85,7 @@ img:before, img:after {
   content: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .topo h3 {
     font-size: 11px; /* menor em smartphones */
   }
