@@ -84,10 +84,8 @@ img:before, img:after {
 @media (max-width: 768px) {
   .topo h3 {
     font-size: 11px; /* menor em smartphones */
-    line-height: 1;
-    margin : 0;
+    text-align: center;
     display: flex;             /* força alinhamento interno */
-    align-items: center;
   }
   .material-icons,.material-symbols-outlined {
   display: flex;             /* garante alinhamento */
