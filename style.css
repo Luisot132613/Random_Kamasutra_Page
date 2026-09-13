@@ -16,6 +16,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 12px;       /* título pequeno */
   margin: 0;
+  text-align: center;    /* centraliza o texto */
   color: #333;
 }
 
