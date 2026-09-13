@@ -89,9 +89,6 @@ img:before, img:after {
   }
   .material-icons,.material-symbols-outlined {
   display: flex;             /* garante alinhamento */
-  align-items: center;
-  line-height: 1;
-  font-size: 18px;
   color: #ff69b4;
 }
 }
