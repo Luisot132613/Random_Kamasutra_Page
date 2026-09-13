@@ -95,4 +95,10 @@ img:before, img:after {
     font-size: 11px; /* menor em smartphones */
     line-height: 1.2;
   }
+  .material-icons,.material-symbols-outlined {
+  display: flex;             /* garante alinhamento */
+  align-items: center;
+  font-size: 18px;
+  color: #e91e63;
+}
 }
