@@ -82,15 +82,6 @@ img:before, img:after {
 }
 
 @media (max-width: 768px) {
-    .topo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    justify-content: center;   /* centraliza ícones e texto */
-    text-align: center;        /* centraliza texto */
-    padding: 8px;
-  }
   .topo h3 {
     font-size: 11px; /* menor em smartphones */
     line-height: 1;
