@@ -42,12 +42,14 @@ body {
 .container {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  max-width: 600px;
-  width: 90%;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
   background: #f8de69; /*fundo dourado matalico*/
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
 }
 
 button {
@@ -57,7 +59,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background: #007BFF;
+  background: #0066ff;
   color: white;
 }
 
@@ -73,6 +75,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 img {
