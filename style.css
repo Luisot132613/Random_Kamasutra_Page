@@ -1,21 +1,21 @@
 .topo {
-  position: fixed;       /* fica sempre no topo */
+  position: fixed;            /* fica sempre no topo */
   top: 0;
   left: 0;
-  width: 100%;
-  background: #f8de69;      /*fundo dourado matalico*/
+  width: 100%;                /* ocupa todo o espaço da tela */        
+  background: #f8de69;      /*fundo dourado matalico */
   padding: 5px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;              /* espaço entre ícones e texto */
+  display: flex;              /*Tamaho de item relativo ao outros itens dentro do topo */
+  justify-content: center;    /*Justifica de forma flexivel itens do topo na horizontal */
+  align-items: center;        /* Alinha itens dentro do topo */
+  gap: 8px;                   /* espaço entre ícones e texto */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .topo h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;       /* título pequeno */
-  margin: 0;
+  margin: 0;             /* margem entre as linhas */
   text-align: center;    /* centraliza o texto */
   color: #333;
 }
@@ -23,7 +23,7 @@
   .material-icons,.material-symbols-outlined {
   display: flex;             /* garante alinhamento */
   align-items: center;
-  line-height: 1;
+  line-height: 1;            /* tamanho do traço do icone */
   font-size: 18px;
   color: #ff69b4;
 }
@@ -31,58 +31,58 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0;                          /* borda interna do corpo do site */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100dvh;
+  min-height: 100dvh;                  /* tamanho mínimo da tela "dvh" utilizado p/ ajustar tela mobile */
   background: linear-gradient(135deg, #ff69b4, #a12664, #d14fd1, #662766);
 }
 
 .container {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  max-width: 480px;
+  max-width: 480px;                         /* maxímo do tamanho do container em pixels */
   width: 100%;
-  height: auto;
-  background: #f8de69; /*fundo dourado matalico*/
+  height: auto;                             /* ajustar o tamanho do container, dependendo da altura da imagem */
+  background: #f8de69;                    /* fundo dourado matalico */
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  overflow: hidden;
+  border-radius: 10px;                      /* arredondar os 4 cantos do container */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* sombra atras do container */
+  overflow: hidden;                         /* esconde se houver um elemento de imagem ou texto fora do container */
 }
 
 button {
   padding: 10px 20px;
-  margin-top: 15px;
+  margin-top: 15px;     /* margem superior entre o elemento acima */
   font-size: 16px;
-  cursor: pointer;
-  border: none;
+  cursor: pointer;      /* tipo de cursor quando colocado o mouse no botão */
+  border: none;         /* seta as bordas do botão */
   border-radius: 5px;
   background: #0066ff;
   color: white;
 }
 
-button:hover {
-  background: #0056b3;
+button:hover {      
+  background: #0056b3;  /* cor com o mouse sobre o botão */
 }
 
 .imagem-container {
-  margin-top: 20px;
+  margin-top: 20px;       /* margem superior entre a imagem e o botão */
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  height: auto;           /* ajusta altura da imagem com o container */
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: cover;      /* mantem a proporção e cobre a margem do container */
 }
 
 img {
-  display: inline-block;
+  display: inline-block;  /* não quebra a linha e aceita larguraaltura */
 }
 img:before, img:after {
-  content: none;
+  content: none;          /* fica sem imagem muito rápido entre uma imagem e outra */
 }
 
 footer {
@@ -94,7 +94,8 @@ footer {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) /*MediaQuery adapta o tamanho do site p/ devices com telas menores*/
+{
   .topo h3 {
     font-size: 11px; /* menor em smartphones */
     text-align: center;
