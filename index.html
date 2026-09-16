@@ -3,30 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kamasutra Poses</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=partner_heart" />
+  <title>Kamasutra Poses</title> <!--Informa o nome que será visualizado na página do navegador-->
+  <link rel="stylesheet" href="style.css"> <!--Incluir um arquivo .css externo-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> <!--Fonte Family Poppins - Google Fonts-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icones Family Poppins - Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=partner_heart" /> <!--Icone Casal - Google Fonts- -->
 </head>
 <body>
-  <header class="topo">
-  <span class="material-symbols-outlined">partner_heart</span>
-  <h3>100 posições para melhorar sua experiência sexual</h3>
+  <header class="topo"> <!--Faixa superior do site-->
+  <span class="material-symbols-outlined">partner_heart</span> <!--busca o icone "Casal" do google fonts, importado no link acima-->
+  <h3>100 posições para melhorar sua experiência sexual</h3> <!--Título da faixa superior do site-->
   <span class="material-symbols-outlined">partner_heart</span>
 </header>
-  <div class="container">
-    <h1>Kamasutra Poses</h1>
-    <button id="mostrarImagem">Mostrar Imagem</button>
-    <div class="imagem-container">
+  <div class="container"> <!--Caixa central com as informações úteis da página-->
+    <h1>Kamasutra Poses</h1> <!--Títúlo principal da caixa-->
+    <button id="mostrarImagem">Mostrar Imagem</button> <!--Botão para gerar as imagens aleatórias-->
+    <div class="imagem-container"> <!--Imagem gerada dentro da caixa central-->
       <img id="imagemAleatoria" src="" alt="Imagem aleatória"
       src="./recortes/01.png"
-     onerror="this.src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=='">
+     onerror="this.src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=='"> <!--Caminho da imagem que eu quero carregar, com onerror - se houver alguma falha no carregamento, exibir imagem do link"-->
     </div>
   </div>
-  <script src="script.js"></script>
-  <footer>
-  <p>&copy; 2026 Viva o Amor. Todos os direitos reservados.</p>
+  <script src="script.js"></script> <!--Inserção do script em Java, p/ buscar o banco das 100 imagens de forma aleatória-->
+  <footer> <!--Faixa inferior do site "rodapé"-->
+  <p>&copy; 2026 Viva o Amor. Todos os direitos reservados.</p> <!--Título de rodapé do site, com direitos autorais-->
 </footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// Simulando um banco de dados com 100 imagens (URLs)
+// Importar as imagens do banco ./recortes c/ o nome do 1.png ao 100.png 
 const imagens = [];
 for (let i = 1; i <= 100; i++) {
   imagens.push(`./recortes/${i}.png`);
